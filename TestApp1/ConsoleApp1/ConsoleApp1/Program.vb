@@ -5,7 +5,7 @@ Module Program
         Console.WriteLine("Hello World!")
 
         For i As Integer = 0 To 10
-            Console.WriteLine("カウント： " & i)
+            Console.WriteLine("カウント：" & i)
         Next
     End Sub
 End Module
