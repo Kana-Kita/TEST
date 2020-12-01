@@ -12,6 +12,3 @@ jobs:
       - run:
          command: echo hello & echo world
          shell: cmd.exe
-      - run:
-         command: .\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
-         shell: cmd.exe
