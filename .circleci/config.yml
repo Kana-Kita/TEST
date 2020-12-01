@@ -8,9 +8,6 @@ jobs:
     executor: win/default # Executor タイプ
 
     steps:
-      # Windows 仮想マシン環境で実行するコマンド
-      - checkout
-      - run: Write-Host 'Hello, Windows'
       # デフォルトのシェルは PowerShell
       - run:            
          command: $(echo hello | Out-Host; $?) -and $(echo world | Out-Host; $?)
