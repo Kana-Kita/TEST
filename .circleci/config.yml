@@ -9,9 +9,6 @@ jobs:
       name: win/default # Executor タイプ
     steps:
       # デフォルトのシェルは PowerShell
-      - run:            
-         command: $(echo hello | Out-Host; $?) -and $(echo world | Out-Host; $?)
-         shell: powershell.exe
       - run:
          command: echo hello & echo world
          shell: cmd.exe
