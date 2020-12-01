@@ -11,3 +11,16 @@ G:\work\GitHub\99_Sample\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.
 G:\work\GitHub\99_Sample\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
 G:\work\GitHub\99_Sample\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
 G:\work\GitHub\99_Sample\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.deps.json
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.json
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.runtimeconfig.dev.json
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.dll
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\bin\Debug\netcoreapp3.1\ConsoleApp1.pdb
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.vbprojAssemblyReference.cache
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfoInputs.cache
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.AssemblyInfo.vb
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.vbproj.CoreCompileInputs.cache
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.dll
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.pdb
+G:\work\GitHub\99_Sample\Test\TestApp1\ConsoleApp1\ConsoleApp1\obj\Debug\netcoreapp3.1\ConsoleApp1.genruntimeconfig.cache
