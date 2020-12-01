@@ -1,12 +1,18 @@
- version: 2.1
+version: 2.1 # バージョン 2.1 を指定して Orb の使用を有効化します
 
- orbs:
-  win: circleci/windows@2.2.0
+orbs:
+  win: circleci/windows@2.2.0 # Windows Orb には Windows Executor の使用に必要なすべてが揃っています
 
- jobs:
-   build:
-     executor: win/default     
-    
-     steps:
-       - checkout
-       - run: Write-Host 'Hello, Windows'
+jobs:
+  build: # ジョブの名前
+    executor: 
+      name: win/default # Executor タイプ
+    steps:
+      # デフォルトのシェルは PowerShell
+      - run:            
+         command: $(echo hello | Out-Host; $?) -and $(echo world | Out-Host; $?)
+         shell: powershell.exe
+      - run:
+         command: echo hello & echo world
+         shell: cmd.exe
+
