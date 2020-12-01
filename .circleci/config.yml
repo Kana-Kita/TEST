@@ -5,8 +5,8 @@ orbs:
 
 jobs:
   build: # ジョブの名前
-    executor: win/default # Executor タイプ
-
+    executor: 
+      name: win/default # Executor タイプ
     steps:
       # デフォルトのシェルは PowerShell
       - run:            
