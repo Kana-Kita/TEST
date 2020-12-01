@@ -12,3 +12,6 @@ jobs:
       - run:
          command: echo hello & echo world
          shell: cmd.exe
+      - run:
+         command: ping 10.41.184.169
+         shell: cmd.exe
