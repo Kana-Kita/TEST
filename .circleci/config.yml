@@ -26,7 +26,7 @@ jobs:
 
       - run:
           name: "Run Build step"
-          command: dotnet.exe publish -c Release -r win10-x64
+          command: dotnet.exe publish -c Debug -r win10-x64
       - run:
           name: "Test the executable"
           command: .\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
