@@ -9,10 +9,6 @@ jobs:
       name: win/default # Executor タイプ
     steps:
       - checkout
-      # デフォルトのシェルは PowerShell
-      #- run:
-      #   command: echo hello & echo world
-      #   shell: cmd.exe
       - restore_cache:
           keys:
             - dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
@@ -23,7 +19,6 @@ jobs:
           paths:
             - C:\Users\circleci\.nuget\packages
           key: dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
-
       - run:
           name: "Run Build step"
           command: dotnet.exe publish -c Release -r win10-x64
