@@ -9,22 +9,26 @@ jobs:
       name: win/default # Executor タイプ
     steps:
       - checkout
+      # デフォルトのシェルは PowerShell
+      #- run:
+      #   command: echo hello & echo world
+      #   shell: cmd.exe
       - restore_cache:
           keys:
-            - dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
+            - dotnet-packages-v1-{{ checksum "\TestApp1\ConsoleApp1\ConsoleApp1\ConsoleApp1.vbproj" }}
       - run:
           name: "Install project dependencies"
           command: dotnet.exe restore
       - save_cache:
           paths:
             - C:\Users\circleci\.nuget\packages
-          key: dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
+          key: dotnet-packages-v1-{{ checksum "\TestApp1\ConsoleApp1\ConsoleApp1\ConsoleApp1.vbproj" }}
 
       - run:
           name: "Run Build step"
           command: dotnet.exe publish -c Release -r win10-x64
       - run:
           name: "Test the executable"
-          command: .\bin\Release\netcoreapp2.1\win10-x64\publish\ConsoleApp1.exe
+          command: .\bin\Debug\netcoreapp3.1\ConsoleApp1.exe
       - store_artifacts:
           path: .\bin\Release\netcoreapp2.1\win10-x64\publish\ConsoleApp1.exe
