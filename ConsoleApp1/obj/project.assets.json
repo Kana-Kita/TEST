@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\work\\GitHub\\99_Sample\\Test\\TestApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectUniqueName": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp1\\ConsoleApp1.vbproj",
       "projectName": "ConsoleApp1",
-      "projectPath": "G:\\work\\GitHub\\99_Sample\\Test\\TestApp1\\ConsoleApp1\\ConsoleApp1\\ConsoleApp1.vbproj",
+      "projectPath": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp1\\ConsoleApp1.vbproj",
       "packagesPath": "C:\\Users\\K-Kita\\.nuget\\packages\\",
-      "outputPath": "G:\\work\\GitHub\\99_Sample\\Test\\TestApp1\\ConsoleApp1\\ConsoleApp1\\obj\\",
+      "outputPath": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
