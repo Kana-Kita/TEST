@@ -13,16 +13,16 @@ jobs:
       #- run:
       #   command: echo hello & echo world
       #   shell: cmd.exe
-      #- restore_cache:
-      #    keys:
-      #      - dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
-      #- run:
-      #    name: "Install project dependencies"
-      #    command: dotnet.exe restore
-      #- save_cache:
-      #    paths:
-      #      - C:\Users\circleci\.nuget\packages
-      #    key: dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
+      - restore_cache:
+          keys:
+            - dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
+      - run:
+          name: "Install project dependencies"
+          command: dotnet.exe restore
+      - save_cache:
+          paths:
+            - C:\Users\circleci\.nuget\packages
+          key: dotnet-packages-v1-{{ checksum "ConsoleApp1.vbproj" }}
 
       - run:
           name: "Run Build step"
