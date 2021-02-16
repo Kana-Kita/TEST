@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QMPdm5LkaVdAezwT51LKpI1uxNuNtGg5EBnosJpRpiDrL+sAWBVKDgVR5vPQ0TAnQB7/K633XU+bGWX0mr2r8Q==",
+  "dgSpecHash": "cHEGL4jJjFJKerTrvPtD/Ao6sTEDvD5Vg5OX0QkIeCmOSuI+oCagKFZnnHqrx7hQoO64YEv7mkR7j+wLi+JKKw==",
   "success": true,
-  "projectFilePath": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
+  "projectFilePath": "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

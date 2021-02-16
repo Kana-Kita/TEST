@@ -10,7 +10,7 @@ namespace ConsoleApp2
 
             for (int i = 0; i <= 10; i++)
             {
-                Console.WriteLine("テスト" + i);
+                Console.WriteLine("TEST" + i);
             }
         }
     }

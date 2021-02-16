@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\ConsoleApp2.csproj": {}
+    "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\ConsoleApp2.csproj": {}
   },
   "projects": {
-    "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\ConsoleApp2.csproj": {
+    "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\ConsoleApp2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectUniqueName": "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
         "projectName": "ConsoleApp2",
-        "projectPath": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
+        "projectPath": "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\ConsoleApp2.csproj",
         "packagesPath": "C:\\Users\\K-Kita\\.nuget\\packages\\",
-        "outputPath": "G:\\work\\GitHub\\99_Sample\\Test\\ConsoleApp2\\obj\\",
+        "outputPath": "G:\\work\\GitHub\\99_Sample\\Test\\Test\\ConsoleApp2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
